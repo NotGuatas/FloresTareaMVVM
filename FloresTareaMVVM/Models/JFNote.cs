@@ -58,5 +58,6 @@ namespace FloresTareaMVVM.Models
                     // With the final collection of notes, order them by date
                     .OrderByDescending(note => note.Date);
         }
+
     }
 }
